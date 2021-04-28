@@ -86,7 +86,10 @@ ul {
    color: #FFFFFF;
 }
 /* button */
-
+.button {
+	font-family: Roboto,sans-serif; 
+	font-style: normal;
+}
 .button.secondary {
 	font-weight: 500;
 	font-size: 16px;
@@ -119,10 +122,12 @@ ul {
    font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14;
-	
+	text-transform: uppercase;
+
 }
 
 .text {
+	font-style: normal;
 	font-size: 14px;
 	line-height: 1.71;
    color:var(--Secondary-text-color);
